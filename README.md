@@ -79,9 +79,4 @@ If the port is already in use, identify and free it with:
 python kill_port.py --port 1050
 ```
 
-## Notes
 
-- Forza Horizon 6 Data Out uses a fixed 324-byte packet format.
-- Avoid ports `5200-5300` for receiving, since the game may bind those ports internally.
-- This dashboard is a prototype designed for responsive real-time monitoring.
-- Future work includes recording, RGB integration, and game FPS source detection.
